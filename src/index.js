@@ -15,6 +15,6 @@ const server = new ApolloServer({
     debug: config.APP_DEBUG,
 });
 
-server.listen().then(({ url }) => {
+server.listen(config.APP_PORT).then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
 });
