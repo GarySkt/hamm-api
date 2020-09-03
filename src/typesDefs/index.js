@@ -5,13 +5,9 @@ const { UserTypes } = require('./UserTypes');
 
 const typeDefs = [
     `
-        type Query {
-            _: Boolean
-        }
+        type Query
 
-        type Mutation {
-            _: Boolean
-        }
+        type Mutation
     `,
     TransactionTypes,
     DetailTypes,
